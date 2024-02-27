@@ -34,7 +34,7 @@ public class TitleHeaderCollectionReusableView: UICollectionReusableView {
     label.frame = CGRect(x: 18, y: 0, width: width-30, height: height)
   }
 
-  public func configure(with title: String) {
+  open func configure(with title: String) {
     label.text = title
     label.lineBreakMode = .byWordWrapping
   }

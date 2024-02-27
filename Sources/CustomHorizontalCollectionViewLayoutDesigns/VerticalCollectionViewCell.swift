@@ -65,7 +65,7 @@ public class VerticalCollectionViewCell: UICollectionViewCell {
     subHeaderLabel.text = nil
   }
   
-  func configure(model: DataModelExample) {
+  open func configure(model: DataModelExample) {
     headerLabel.text = model.headerText
     subHeaderLabel.text = model.subHeaderText
     imageView.image = model.cellImage

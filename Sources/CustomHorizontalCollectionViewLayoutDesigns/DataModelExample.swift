@@ -7,8 +7,8 @@
 
 import UIKit
 
-public struct DataModelExample {
-  
+open struct DataModelExample {
+
   let headerText = "Header Text"
   let subHeaderText = "Subheader Text"
   let cellImage = UIImage(systemName: "photo.circle")
