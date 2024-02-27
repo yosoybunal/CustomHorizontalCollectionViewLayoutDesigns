@@ -7,9 +7,9 @@
 
 import UIKit
 
-public class CompositionalLayouts: UIViewController {
+open class CompositionalLayouts: UIViewController {
 
-  public var compositionalColectionView: UICollectionView = UICollectionView(frame: .zero,
+  open var compositionalColectionView: UICollectionView = UICollectionView(frame: .zero,
                                                                              collectionViewLayout: UICollectionViewCompositionalLayout { sectionIndex, _ -> NSCollectionLayoutSection in
     return CompositionalLayouts.createLayoutOneRowOneColumn(section: sectionIndex)
   })
@@ -22,10 +22,10 @@ public class CompositionalLayouts: UIViewController {
     return spinner
   }()
 
-  public static var sections = [Sections]()
-  public let model = DataModelExample()
+  open static var sections = [Sections]()
+  open let model = DataModelExample()
 
-  public override func viewDidLoad() {
+  open override func viewDidLoad() {
     super.viewDidLoad()
     view.addSubview(compositionalColectionView)
     view.backgroundColor = .systemBackground
@@ -33,12 +33,12 @@ public class CompositionalLayouts: UIViewController {
     registerCollectionViewCells()
   }
 
-  public override func viewDidLayoutSubviews() {
+  open override func viewDidLayoutSubviews() {
     super.viewDidLayoutSubviews()
     compositionalColectionView.frame = view.bounds
   }
 
-  public func registerCollectionViewCells() {
+  open func registerCollectionViewCells() {
     compositionalColectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "cell")
     compositionalColectionView.register(VerticalCollectionViewCell.self, forCellWithReuseIdentifier: VerticalCollectionViewCell.identifier)
     compositionalColectionView.register(HorizontalCollectionViewCell.self, forCellWithReuseIdentifier: HorizontalCollectionViewCell.identifier)
@@ -48,7 +48,7 @@ public class CompositionalLayouts: UIViewController {
     compositionalColectionView.backgroundColor = .systemBackground
   }
 
-  public static func createLayoutOneRowOneColumn(section: Int) -> NSCollectionLayoutSection {
+  open static func createLayoutOneRowOneColumn(section: Int) -> NSCollectionLayoutSection {
     let supplementaryViews =  [NSCollectionLayoutBoundarySupplementaryItem(layoutSize: NSCollectionLayoutSize(widthDimension: .fractionalWidth(1.0), heightDimension: .absolute(50)), elementKind: UICollectionView.elementKindSectionHeader, alignment: .top)]
     let types = sections[section]
     switch section {

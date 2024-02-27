@@ -9,7 +9,7 @@ import UIKit
 
 extension CompositionalLayouts: UICollectionViewDataSource, UICollectionViewDelegate {
 
-  public func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+  open func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
     let sections = CompositionalLayouts.sections[section]
     switch sections {
     case .twoRowsVerticalDesignCollectionView(let count):
@@ -23,15 +23,15 @@ extension CompositionalLayouts: UICollectionViewDataSource, UICollectionViewDele
     }
   }
 
-  public func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+  open func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
     collectionView.deselectItem(at: indexPath, animated: true)
   }
 
-  public func numberOfSections(in collectionView: UICollectionView) -> Int {
+  open func numberOfSections(in collectionView: UICollectionView) -> Int {
     return CompositionalLayouts.sections.count
   }
 
-  public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+  open func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
     let types = CompositionalLayouts.sections[indexPath.section]
     switch types {
 
@@ -59,7 +59,7 @@ extension CompositionalLayouts: UICollectionViewDataSource, UICollectionViewDele
     }
   }
 
-  public func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
+  open func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
     return UICollectionReusableView()
   }
 }
