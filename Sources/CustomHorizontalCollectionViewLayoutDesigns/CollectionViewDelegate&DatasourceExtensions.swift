@@ -9,7 +9,7 @@ import UIKit
 
 extension CompositionalLayouts: UICollectionViewDataSource, UICollectionViewDelegate {
 
-  func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+  public func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
     let sections = CompositionalLayouts.sections[section]
     switch sections {
     case .twoRowsVerticalDesignCollectionView(let count):
