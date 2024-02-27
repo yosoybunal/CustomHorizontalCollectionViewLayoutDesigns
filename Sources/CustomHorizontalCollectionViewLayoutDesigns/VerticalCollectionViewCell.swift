@@ -9,7 +9,7 @@ import UIKit
 
 public class VerticalCollectionViewCell: UICollectionViewCell {
   
-  static let identifier = "VersionTwoCollectionViewCell"
+  public static let identifier = "VersionTwoCollectionViewCell"
   
   private let headerLabel: UILabel = {
     let label = UILabel()
