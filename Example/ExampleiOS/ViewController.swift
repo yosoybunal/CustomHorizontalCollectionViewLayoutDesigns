@@ -1,11 +1,12 @@
 //
-//  ExampleViewController.swift
-//
+//  ViewController.swift
+//  Example
 //
 //  Created by Berkay Unal on 27.02.2024.
 //
 
 import UIKit
+import CustomHorizontalCollectionViewLayoutDesigns
 
 class ExampleViewController: CompositionalLayouts {
 
@@ -37,3 +38,4 @@ class ExampleViewController: CompositionalLayouts {
     return header
   }
 }
+

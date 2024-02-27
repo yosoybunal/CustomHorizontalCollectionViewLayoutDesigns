@@ -1,9 +1,10 @@
 //
 //  AppDelegate.swift
-//
+//  Example
 //
 //  Created by Berkay Unal on 27.02.2024.
 //
+
 import UIKit
 
 @main
@@ -20,3 +21,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     return true
   }
 }
+
