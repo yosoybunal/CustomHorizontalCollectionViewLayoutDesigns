@@ -30,12 +30,5 @@ class ExampleViewController: CompositionalLayouts {
     let item = indexPath.item
     print("clicked section \(section + 1) and item \(item + 1)")
   }
-
-  override func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
-    guard let header = collectionView.dequeueReusableSupplementaryView(ofKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: TitleHeaderCollectionReusableView.identifier, for: indexPath) as? TitleHeaderCollectionReusableView else { return UICollectionReusableView() }
-    let section = indexPath.section
-    header.configure(with: "Section \(section + 1)")
-    return header
-  }
 }
 
