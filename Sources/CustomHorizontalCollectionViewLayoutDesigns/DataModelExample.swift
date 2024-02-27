@@ -7,7 +7,7 @@
 
 import UIKit
 
-open struct DataModelExample {
+public struct DataModelExample {
 
   let headerText = "Header Text"
   let subHeaderText = "Subheader Text"
