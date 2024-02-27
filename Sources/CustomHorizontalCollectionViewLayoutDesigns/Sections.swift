@@ -17,6 +17,8 @@ public enum Sections: Equatable {
   case oneRowVerticalDesignCollectionView(Int)
   case oneRowHorizontalDesignCollectionView(Int)
 
+  //MARK: - 4 Horizontal Collection View Cases
+
   var sectionName: String {
     switch self {
     case .twoRowsHorizontalDesignCollectionView:
