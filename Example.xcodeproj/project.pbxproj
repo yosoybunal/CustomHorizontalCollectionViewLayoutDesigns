@@ -7,96 +7,90 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FCBEE7622B8DE27400DE91C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBEE7612B8DE27400DE91C7 /* AppDelegate.swift */; };
-		FCBEE7662B8DE27400DE91C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBEE7652B8DE27400DE91C7 /* ViewController.swift */; };
-		FCBEE7772B8DE3DA00DE91C7 /* CustomHorizontalCollectionViewLayoutDesigns in Frameworks */ = {isa = PBXBuildFile; productRef = FCBEE7762B8DE3DA00DE91C7 /* CustomHorizontalCollectionViewLayoutDesigns */; };
-		FCFC0E262B8DE61200592895 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FCFC0E252B8DE61200592895 /* Info.plist */; };
+		FC71CF722B8DEC5D005D9077 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC71CF712B8DEC5D005D9077 /* AppDelegate.swift */; };
+		FC71CF762B8DEC5D005D9077 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC71CF752B8DEC5D005D9077 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FCBEE75E2B8DE27400DE91C7 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCBEE7612B8DE27400DE91C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FCBEE7652B8DE27400DE91C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FCFC0E252B8DE61200592895 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC71CF6E2B8DEC5D005D9077 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC71CF712B8DEC5D005D9077 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC71CF752B8DEC5D005D9077 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC71CF7F2B8DEC5E005D9077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FCBEE75B2B8DE27400DE91C7 /* Frameworks */ = {
+		FC71CF6B2B8DEC5D005D9077 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCBEE7772B8DE3DA00DE91C7 /* CustomHorizontalCollectionViewLayoutDesigns in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FCBEE7552B8DE27400DE91C7 = {
+		FC71CF652B8DEC5D005D9077 = {
 			isa = PBXGroup;
 			children = (
-				FCBEE7602B8DE27400DE91C7 /* ExampleiOS */,
-				FCBEE75F2B8DE27400DE91C7 /* Products */,
+				FC71CF702B8DEC5D005D9077 /* Example */,
+				FC71CF6F2B8DEC5D005D9077 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FCBEE75F2B8DE27400DE91C7 /* Products */ = {
+		FC71CF6F2B8DEC5D005D9077 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FCBEE75E2B8DE27400DE91C7 /* Example.app */,
+				FC71CF6E2B8DEC5D005D9077 /* Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FCBEE7602B8DE27400DE91C7 /* ExampleiOS */ = {
+		FC71CF702B8DEC5D005D9077 /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				FCBEE7612B8DE27400DE91C7 /* AppDelegate.swift */,
-				FCBEE7652B8DE27400DE91C7 /* ViewController.swift */,
-				FCFC0E252B8DE61200592895 /* Info.plist */,
+				FC71CF712B8DEC5D005D9077 /* AppDelegate.swift */,
+				FC71CF752B8DEC5D005D9077 /* ViewController.swift */,
+				FC71CF7F2B8DEC5E005D9077 /* Info.plist */,
 			);
-			path = ExampleiOS;
+			path = Example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FCBEE75D2B8DE27400DE91C7 /* Example */ = {
+		FC71CF6D2B8DEC5D005D9077 /* Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FCBEE7722B8DE27500DE91C7 /* Build configuration list for PBXNativeTarget "Example" */;
+			buildConfigurationList = FC71CF822B8DEC5E005D9077 /* Build configuration list for PBXNativeTarget "Example" */;
 			buildPhases = (
-				FCBEE75A2B8DE27400DE91C7 /* Sources */,
-				FCBEE75B2B8DE27400DE91C7 /* Frameworks */,
-				FCBEE75C2B8DE27400DE91C7 /* Resources */,
+				FC71CF6A2B8DEC5D005D9077 /* Sources */,
+				FC71CF6B2B8DEC5D005D9077 /* Frameworks */,
+				FC71CF6C2B8DEC5D005D9077 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Example;
-			packageProductDependencies = (
-				FCBEE7762B8DE3DA00DE91C7 /* CustomHorizontalCollectionViewLayoutDesigns */,
-			);
 			productName = Example;
-			productReference = FCBEE75E2B8DE27400DE91C7 /* Example.app */;
+			productReference = FC71CF6E2B8DEC5D005D9077 /* Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FCBEE7562B8DE27400DE91C7 /* Project object */ = {
+		FC71CF662B8DEC5D005D9077 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
-					FCBEE75D2B8DE27400DE91C7 = {
+					FC71CF6D2B8DEC5D005D9077 = {
 						CreatedOnToolsVersion = 15.2;
 					};
 				};
 			};
-			buildConfigurationList = FCBEE7592B8DE27400DE91C7 /* Build configuration list for PBXProject "Example" */;
+			buildConfigurationList = FC71CF692B8DEC5D005D9077 /* Build configuration list for PBXProject "Example" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -104,44 +98,40 @@
 				en,
 				Base,
 			);
-			mainGroup = FCBEE7552B8DE27400DE91C7;
-			packageReferences = (
-				FCBEE7752B8DE3DA00DE91C7 /* XCRemoteSwiftPackageReference "CustomHorizontalCollectionViewLayoutDesigns" */,
-			);
-			productRefGroup = FCBEE75F2B8DE27400DE91C7 /* Products */;
+			mainGroup = FC71CF652B8DEC5D005D9077;
+			productRefGroup = FC71CF6F2B8DEC5D005D9077 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FCBEE75D2B8DE27400DE91C7 /* Example */,
+				FC71CF6D2B8DEC5D005D9077 /* Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FCBEE75C2B8DE27400DE91C7 /* Resources */ = {
+		FC71CF6C2B8DEC5D005D9077 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCFC0E262B8DE61200592895 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FCBEE75A2B8DE27400DE91C7 /* Sources */ = {
+		FC71CF6A2B8DEC5D005D9077 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCBEE7662B8DE27400DE91C7 /* ViewController.swift in Sources */,
-				FCBEE7622B8DE27400DE91C7 /* AppDelegate.swift in Sources */,
+				FC71CF762B8DEC5D005D9077 /* ViewController.swift in Sources */,
+				FC71CF722B8DEC5D005D9077 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		FCBEE7702B8DE27500DE91C7 /* Debug */ = {
+		FC71CF802B8DEC5E005D9077 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -204,7 +194,7 @@
 			};
 			name = Debug;
 		};
-		FCBEE7712B8DE27500DE91C7 /* Release */ = {
+		FC71CF812B8DEC5E005D9077 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -260,7 +250,7 @@
 			};
 			name = Release;
 		};
-		FCBEE7732B8DE27500DE91C7 /* Debug */ = {
+		FC71CF832B8DEC5E005D9077 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -288,7 +278,7 @@
 			};
 			name = Debug;
 		};
-		FCBEE7742B8DE27500DE91C7 /* Release */ = {
+		FC71CF842B8DEC5E005D9077 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -319,44 +309,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FCBEE7592B8DE27400DE91C7 /* Build configuration list for PBXProject "Example" */ = {
+		FC71CF692B8DEC5D005D9077 /* Build configuration list for PBXProject "Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FCBEE7702B8DE27500DE91C7 /* Debug */,
-				FCBEE7712B8DE27500DE91C7 /* Release */,
+				FC71CF802B8DEC5E005D9077 /* Debug */,
+				FC71CF812B8DEC5E005D9077 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FCBEE7722B8DE27500DE91C7 /* Build configuration list for PBXNativeTarget "Example" */ = {
+		FC71CF822B8DEC5E005D9077 /* Build configuration list for PBXNativeTarget "Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FCBEE7732B8DE27500DE91C7 /* Debug */,
-				FCBEE7742B8DE27500DE91C7 /* Release */,
+				FC71CF832B8DEC5E005D9077 /* Debug */,
+				FC71CF842B8DEC5E005D9077 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		FCBEE7752B8DE3DA00DE91C7 /* XCRemoteSwiftPackageReference "CustomHorizontalCollectionViewLayoutDesigns" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/yosoybunal/CustomHorizontalCollectionViewLayoutDesigns";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		FCBEE7762B8DE3DA00DE91C7 /* CustomHorizontalCollectionViewLayoutDesigns */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FCBEE7752B8DE3DA00DE91C7 /* XCRemoteSwiftPackageReference "CustomHorizontalCollectionViewLayoutDesigns" */;
-			productName = CustomHorizontalCollectionViewLayoutDesigns;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = FCBEE7562B8DE27400DE91C7 /* Project object */;
+	rootObject = FC71CF662B8DEC5D005D9077 /* Project object */;
 }

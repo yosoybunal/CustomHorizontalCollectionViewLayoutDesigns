@@ -17,7 +17,7 @@ class ExampleViewController: CompositionalLayouts {
 
   // MARK: - Configure Collection Views
 
-  private func configureCollectionViews() {
+  func configureCollectionViews() {
     ExampleViewController.sections.append(.twoRowsVerticalDesignCollectionView(5))
     ExampleViewController.sections.append(.twoRowsHorizontalDesignCollectionView(10))
     ExampleViewController.sections.append(.oneRowVerticalDesignCollectionView(7))
