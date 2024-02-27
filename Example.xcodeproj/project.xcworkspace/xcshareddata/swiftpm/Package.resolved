@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "customhorizontalcollectionviewlayoutdesigns",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/yosoybunal/CustomHorizontalCollectionViewLayoutDesigns",
+      "state" : {
+        "branch" : "main",
+        "revision" : "2284e2626bf7ecc6e3cb971d4b878e994dadfcb9"
+      }
+    }
+  ],
+  "version" : 2
+}

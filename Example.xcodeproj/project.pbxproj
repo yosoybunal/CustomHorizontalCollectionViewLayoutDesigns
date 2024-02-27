@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		FC71CF722B8DEC5D005D9077 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC71CF712B8DEC5D005D9077 /* AppDelegate.swift */; };
 		FC71CF762B8DEC5D005D9077 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC71CF752B8DEC5D005D9077 /* ViewController.swift */; };
+		FC71CF872B8DED09005D9077 /* CustomHorizontalCollectionViewLayoutDesigns in Frameworks */ = {isa = PBXBuildFile; productRef = FC71CF862B8DED09005D9077 /* CustomHorizontalCollectionViewLayoutDesigns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC71CF872B8DED09005D9077 /* CustomHorizontalCollectionViewLayoutDesigns in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +73,9 @@
 			dependencies = (
 			);
 			name = Example;
+			packageProductDependencies = (
+				FC71CF862B8DED09005D9077 /* CustomHorizontalCollectionViewLayoutDesigns */,
+			);
 			productName = Example;
 			productReference = FC71CF6E2B8DEC5D005D9077 /* Example.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +104,9 @@
 				Base,
 			);
 			mainGroup = FC71CF652B8DEC5D005D9077;
+			packageReferences = (
+				FC71CF852B8DED09005D9077 /* XCRemoteSwiftPackageReference "CustomHorizontalCollectionViewLayoutDesigns" */,
+			);
 			productRefGroup = FC71CF6F2B8DEC5D005D9077 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -328,6 +336,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FC71CF852B8DED09005D9077 /* XCRemoteSwiftPackageReference "CustomHorizontalCollectionViewLayoutDesigns" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yosoybunal/CustomHorizontalCollectionViewLayoutDesigns";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FC71CF862B8DED09005D9077 /* CustomHorizontalCollectionViewLayoutDesigns */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC71CF852B8DED09005D9077 /* XCRemoteSwiftPackageReference "CustomHorizontalCollectionViewLayoutDesigns" */;
+			productName = CustomHorizontalCollectionViewLayoutDesigns;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FC71CF662B8DEC5D005D9077 /* Project object */;
 }
