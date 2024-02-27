@@ -22,8 +22,8 @@ open class CompositionalLayouts: UIViewController {
     return spinner
   }()
 
-  open static var sections = [Sections]()
-  open let model = DataModelExample()
+  public static var sections = [Sections]()
+  public let model = DataModelExample()
 
   open override func viewDidLoad() {
     super.viewDidLoad()
@@ -48,7 +48,7 @@ open class CompositionalLayouts: UIViewController {
     compositionalColectionView.backgroundColor = .systemBackground
   }
 
-  open static func createLayoutOneRowOneColumn(section: Int) -> NSCollectionLayoutSection {
+  public static func createLayoutOneRowOneColumn(section: Int) -> NSCollectionLayoutSection {
     let supplementaryViews =  [NSCollectionLayoutBoundarySupplementaryItem(layoutSize: NSCollectionLayoutSize(widthDimension: .fractionalWidth(1.0), heightDimension: .absolute(50)), elementKind: UICollectionView.elementKindSectionHeader, alignment: .top)]
     let types = sections[section]
     switch section {
