@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  
+//
 //
 //  Created by Berkay Unal on 27.02.2024.
 //
