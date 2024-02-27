@@ -9,7 +9,7 @@ import UIKit
 
 public class TitleHeaderCollectionReusableView: UICollectionReusableView {
   
-  static let identifier = "TitleHeaderCollectionReusableView"
+  public static let identifier = "TitleHeaderCollectionReusableView"
 
   private let label: UILabel = {
     let label = UILabel()

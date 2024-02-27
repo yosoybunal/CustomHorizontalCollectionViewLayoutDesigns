@@ -9,7 +9,7 @@ import UIKit
 
 public class HorizontalCollectionViewCell: UICollectionViewCell {
 
-  static let identifier = "VersionOneCollectionViewCell"
+  public static let identifier = "VersionOneCollectionViewCell"
 
   private let headerLabel: UILabel = {
     let label = UILabel()
