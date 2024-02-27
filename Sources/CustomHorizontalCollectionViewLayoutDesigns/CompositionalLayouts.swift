@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CompositionalLayouts: UIViewController {
+public class CompositionalLayouts: UIViewController {
 
   public var compositionalColectionView: UICollectionView = UICollectionView(frame: .zero,
                                                                              collectionViewLayout: UICollectionViewCompositionalLayout { sectionIndex, _ -> NSCollectionLayoutSection in
@@ -25,7 +25,7 @@ class CompositionalLayouts: UIViewController {
   public static var sections = [Sections]()
   public let model = DataModelExample()
 
-  override func viewDidLoad() {
+  public override func viewDidLoad() {
     super.viewDidLoad()
     view.addSubview(compositionalColectionView)
     view.backgroundColor = .systemBackground
@@ -33,7 +33,7 @@ class CompositionalLayouts: UIViewController {
     registerCollectionViewCells()
   }
 
-  override func viewDidLayoutSubviews() {
+  public override func viewDidLayoutSubviews() {
     super.viewDidLayoutSubviews()
     compositionalColectionView.frame = view.bounds
   }

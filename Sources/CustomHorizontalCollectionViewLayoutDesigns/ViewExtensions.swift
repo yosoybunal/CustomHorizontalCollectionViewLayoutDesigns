@@ -7,7 +7,7 @@
 
 import UIKit
 
-public extension UIView {
+public  extension UIView {
 
   var width: CGFloat {
     return frame.size.width

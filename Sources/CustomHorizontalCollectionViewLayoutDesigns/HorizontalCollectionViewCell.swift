@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class HorizontalCollectionViewCell: UICollectionViewCell {
+public class HorizontalCollectionViewCell: UICollectionViewCell {
 
   static let identifier = "VersionOneCollectionViewCell"
 
@@ -45,7 +45,7 @@ final class HorizontalCollectionViewCell: UICollectionViewCell {
     fatalError()
   }
 
-  override func layoutSubviews() {
+  public override func layoutSubviews() {
     super.layoutSubviews()
     let imageSize: CGFloat = contentView.height-10
     let headerLabelSize = headerLabel.sizeThatFits(CGSize(width: contentView.width-imageSize-10, height: contentView.height-10))
@@ -66,7 +66,7 @@ final class HorizontalCollectionViewCell: UICollectionViewCell {
       height: min(80, Int(headerLabelSize.height)))
   }
 
-  override func prepareForReuse() {
+  public override func prepareForReuse() {
     super.prepareForReuse()
     headerLabel.text = nil
     subHeaderLabel.text = nil

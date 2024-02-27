@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class TitleHeaderCollectionReusableView: UICollectionReusableView {
+public class TitleHeaderCollectionReusableView: UICollectionReusableView {
   
   static let identifier = "TitleHeaderCollectionReusableView"
 
@@ -29,7 +29,7 @@ final class TitleHeaderCollectionReusableView: UICollectionReusableView {
     fatalError("init(coder:) has not been implemented")
   }
 
-  override func layoutSubviews() {
+  public override func layoutSubviews() {
     super.layoutSubviews()
     label.frame = CGRect(x: 18, y: 0, width: width-30, height: height)
   }

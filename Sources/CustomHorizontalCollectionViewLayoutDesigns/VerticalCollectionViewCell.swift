@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class VerticalCollectionViewCell: UICollectionViewCell {
+public class VerticalCollectionViewCell: UICollectionViewCell {
   
   static let identifier = "VersionTwoCollectionViewCell"
   
@@ -50,7 +50,7 @@ final class VerticalCollectionViewCell: UICollectionViewCell {
     fatalError()
   }
   
-  override func layoutSubviews() {
+  public override func layoutSubviews() {
     super.layoutSubviews()
     let imageSize = contentView.height-70
     imageView.frame = CGRect(x: (contentView.width-imageSize)/2, y: 3, width: imageSize, height: imageSize)
@@ -58,7 +58,7 @@ final class VerticalCollectionViewCell: UICollectionViewCell {
     subHeaderLabel.frame = CGRect(x: 3, y: contentView.height-40, width: contentView.width-6, height: 30)
   }
   
-  override func prepareForReuse() {
+  public override func prepareForReuse() {
     super.prepareForReuse()
     imageView.image = nil
     headerLabel.text = nil

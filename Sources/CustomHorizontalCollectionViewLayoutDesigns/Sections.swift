@@ -7,7 +7,7 @@
 
 import Foundation
 
-public enum Sections: Equatable {
+public  enum Sections: Equatable {
   public static func == (lhs: Sections, rhs: Sections) -> Bool {
     return lhs.sectionName == rhs.sectionName
   }
