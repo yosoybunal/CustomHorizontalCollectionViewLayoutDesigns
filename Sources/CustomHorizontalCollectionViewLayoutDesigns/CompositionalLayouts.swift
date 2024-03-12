@@ -239,7 +239,10 @@ open class CompositionalLayouts: UIViewController, UICollectionViewDataSource, U
   }
 
   open func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
-    return UICollectionReusableView()
+    guard let header = collectionView.dequeueReusableSupplementaryView(ofKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: TitleHeaderCollectionReusableView.identifier, for: indexPath) as? TitleHeaderCollectionReusableView else { return UICollectionReusableView() }
+    let section = indexPath.section
+    header.configure(with: "Section \(section + 1)")
+    return header
   }
 
   open func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
