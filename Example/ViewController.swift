@@ -24,11 +24,5 @@ class ExampleViewController: CompositionalLayouts {
     ExampleViewController.sections.append(.oneRowHorizontalDesignCollectionView(7))
     ExampleViewController.sections.append(.twoRowsVerticalDesignCollectionView(6))
   }
-
-  override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-    let section = indexPath.section
-    let item = indexPath.item
-    print("clicked section \(section + 1) and item \(item + 1)")
-  }
 }
 
