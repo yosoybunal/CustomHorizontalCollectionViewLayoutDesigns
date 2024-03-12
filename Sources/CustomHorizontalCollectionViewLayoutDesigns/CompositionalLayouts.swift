@@ -239,16 +239,11 @@ open class CompositionalLayouts: UIViewController, UICollectionViewDataSource, U
   }
 
   open func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
-    guard let header = collectionView.dequeueReusableSupplementaryView(ofKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: TitleHeaderCollectionReusableView.identifier, for: indexPath) as? TitleHeaderCollectionReusableView else { return UICollectionReusableView() }
-    let section = indexPath.section
-    header.configure(with: "Section \(section + 1)")
-    return header
+    return UICollectionReusableView()
   }
 
   open func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
     collectionView.deselectItem(at: indexPath, animated: true)
-    let section = indexPath.section
-    let item = indexPath.item
-    print("clicked section \(section + 1) and item \(item + 1)")
   }
+  
 }
