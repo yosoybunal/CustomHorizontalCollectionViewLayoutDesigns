@@ -27,7 +27,7 @@ pod "CustomHorizontalCollectionViewLayoutDesigns"
 
 ## Usage
 
-There is no required methods to add once conformed to CompositionLayouts class. Asin this below example 
+There is no required methods to add once conformed to CompositionLayouts class. As in this below example. The associated value of Int value is the number of cells to populate. 
 
 ```swift
 import CustomHorizontalCollectionViewLayoutDesigns
