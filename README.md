@@ -2,7 +2,10 @@
 
 This is a UIKit package for adding custom horizontal collection views.
 
-There are 4 variations of horizontal layouts as below. The customization of headers and cells must be implemented via its respective collection view override functions and with a populated data model. An example will be shown in below **Usage** section. 
+There are 4 variations of horizontal layouts as below. 
+![RocketSim_Recording_iPhone_15_Pro_6 1_2024-03-21_12 55 45](https://github.com/yosoybunal/CustomHorizontalCollectionViewLayoutDesigns/assets/139717061/2ffbdc86-9faf-4e3a-89e7-585052a8b48f)
+
+The customization of headers and cells must be implemented via its respective collection view override functions and with a populated data model. An example will be shown in below **Usage** section. 
 
 ## Installation
 
