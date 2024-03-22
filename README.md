@@ -1,6 +1,6 @@
 # CustomHorizontalCollectionViewLayoutDesigns
 
-This is a UIKit package for adding custom horizontal collection views. I found it hard to add section headers properly positioned at the top left when creating horizontal collectionViews with UIKit. That's why i created this package to ease the process of adding sections and adjusting their section headers.
+This is a Swift package for adding custom horizontal collection views for UIKit. I found it hard to add section headers properly positioned at the top left when creating horizontal collectionViews with UIKit. That's why i created this package to ease the process of adding sections and adjusting their section headers.
 
 There are 4 variations of horizontal layouts as below. 
 - Two ROWS Horizontal Collection View
