@@ -1,4 +1,4 @@
-# CustomHorizontalCollectionViewLayoutDesigns
+# CHCVLayoutDesigns
 ![SPM](https://img.shields.io/badge/Swift_Package_Manager-compatible-green)
 ![Platform](https://img.shields.io/badge/Platform-iOS-blue)
 ![license](https://img.shields.io/badge/license-MIT-lightgray)
